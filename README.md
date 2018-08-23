@@ -1,7 +1,7 @@
-#logtool
+# logtool
 Tool help you analyze log file.
 
-##Usage
+## Usage
 ```shell
 usage: ./logtool.sh [ OPTIONS ] OBJECT { COMMAND }
 
@@ -10,7 +10,7 @@ OPTIONS := { -v | -h }
 OBJECT := { keyword | count | dnscount }
 ```
 
-###keyword tool usage
+### keyword tool usage
 ```shell
 usage: ./logtool.sh  keyword [ OPTIONS ]
 
@@ -32,7 +32,7 @@ example:
 $ ./logtool.sh keyword -f 'test.log' -k 'error'
 ```
 
-###count tool usage
+### count tool usage
 ```shell
 usage: ./logtool.sh count  [ OPTIONS ]
 
@@ -59,7 +59,7 @@ example:
 $ ./logtool.sh count -f sms.log -c 3 -N -k "username"
 ```
 
-###dnscount tool usage
+### dnscount tool usage
 ```shell
 usage: ./logtool.sh dnscount  [ OPTIONS ]
 
